@@ -1,1 +1,190 @@
 /* Desenvolva seu estilo aqui */
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 98px;
+    width: 100%;
+    min-width: 400px;
+    justify-content: center;
+    background: var(--color-grey-700);
+    border-bottom: 1px solid #E9ECEF;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.head-logo {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.btt-home {
+    width: 90px;
+    height: 38px;
+    background: var(--color-grey-600);
+    border-radius: 32px;
+    border: none;
+    color: var(--color-grey-200);
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 0 2rem;
+    max-width: 1440px;
+    height: 99%;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 44px;
+    margin-bottom: 44px;
+}
+
+.div-head {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    min-height: 336px;
+    justify-content: center;
+}
+
+.div-info {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.categories {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.8125rem;
+    margin-bottom: 60px;
+}
+
+.img-angle {
+    position: absolute;
+    top: 27px;
+    left: 97%;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-image: url(/pages/img/angle-right.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: none;
+}
+
+.img-angle:hover {
+    border: 1px solid var(--color-grey-500);
+    border-radius: 50%;
+    background-color: var(--color-grey-500);
+}
+
+.img-angle-left {
+    position: absolute;
+    top: 27px;
+    right: 97%;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-image: url(/pages/img/icon\ left.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    border: none;
+    display: flex;
+}
+
+.img-angle-left:hover {
+    border: 1px solid var(--color-grey-500);
+    border-radius: 50%;
+    background-color: var(--color-grey-500);
+
+}
+
+.cat-list {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    overflow: hidden;
+    padding: 1.75rem 0.625rem 1.6875rem 0.625rem;
+}
+
+.cat-card button {
+    height: 2.375rem;
+    padding: 0.4375rem 1.375rem;
+    background: var(--color-grey-700);
+    border: 1px solid var(--color-grey-700);
+    border-radius: 32px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 100%;
+    min-width: 400px;
+    justify-content: center;
+    background: var(--color-grey-100);
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.content {
+    display: flex;
+    gap: 54px;
+    width: 100%;
+}
+
+.content div h2 {
+    color: var(--color-grey-700);
+}
+
+.content p {
+    color: var(--color-grey-300);
+    width: 551px;
+
+}
+
+.back-to-top {
+    padding: 0 22px;
+    height: 38px;
+    width: 182px;
+    background: var(--color-grey-200);
+    border: 1px solid var(--color-grey-100);
+    border-radius: 32px;
+    color: var(--color-grey-600);
+}

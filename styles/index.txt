@@ -1,0 +1,20 @@
+Os posts devem ser renderizados de forma compassada, de acordo com o scroll do usuário
+
+Ao clicar em um post, armazena os dados do mesmo no localStorage e redireciona para outra página de post
+que recebe os dados do localStorage e faz uma requisição à API
+
+
+página inicial:
+1 - Os botões devem ser renderizados de acordo com as categorias de cada post
+2 - Ao clicar na seta, faz um scroll horizontal para acessar mais categorias
+3 - Ao clicar em um botão de categoria, renderiza os posts daquela categoria
+4 - Ao clicar em um post, envia o id do post para o localStorage e redireciona para outra página
+
+página do post:
+1 - recebe o dado id do post no localStorage e solicita a API, renderizando em tela conforme figma
+2 - ao clicar em um botão de categoria na página do post, armazena os dados da categoria no localStorage,
+    redireciona para a página inicial, e ao abrir a página inicial, o botão clicado anteriormente estará 
+    selecionado e renderizando as respectivas notícias da categoria
+
+
+

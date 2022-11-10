@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 :root {
@@ -14,8 +17,69 @@
   --color-grey-700: #f8f9fa;
   --color-brand-100: #087f5b;
   --color-brand-200: #099268;
-  --font-size-1: 2.5rem;
-  --font-size-2: 1.75rem;
-  --font-size-3: 1.25rem;
-  --font-size-4: 1rem;
+
+  --font-size-1: 1rem;
+  /*16px*/
+  --font-size-2: 1.25rem;
+  /*20px*/
+  --font-size-3: 1.75rem;
+  /*28px*/
+  --font-size-4: 2.5rem;
+  /*40px*/
+
+  --weight1: 400;
+  --weight2: 600;
+  --weight3: 700;
+
+  --height1: 150%;
+
+
+}
+
+.font1-semibold {
+  font-weight: var(--weight3);
+  font-size: var(--font-size-4);
+  line-height: var(--height1);
+}
+
+.font2-bold {
+  font-weight: var(--weight3);
+  font-size: var(--font-size-3);
+  line-height: var(--height1);
+}
+
+.font3-semibold {
+  font-weight: var(--weight2);
+  font-size: var(--font-size-2);
+  line-height: var(--height1);
+}
+
+.font4-semibold {
+  font-weight: var(--weight2);
+  font-size: var(--font-size-1);
+  line-height: var(--height1);
+}
+
+.font4-regular {
+  font-weight: var(--weight1);
+  font-size: var(--font-size-1);
+  line-height: var(--height1);
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  min-width: 400px;
+  justify-content: center;
+}
+
+
+button:hover {
+  cursor: pointer;
 }
