@@ -20,7 +20,7 @@ bttBack.addEventListener("click", () => {
 })
 bttHome.addEventListener("click", () => {
     localStorage.removeItem("cat")
-    window.location.assign("/pages/home/index.html")
+    window.location.assign("/index.html")
 })
 
 function goToCat() {
@@ -29,7 +29,7 @@ function goToCat() {
         elem.addEventListener("click", () => {
             const value = JSON.stringify(elem.children[0].innerText)
             localStorage.setItem("cat", value)
-            window.location.assign("/pages/home/index.html")
+            window.location.assign("/index.html")
         })
     })
 }
@@ -38,7 +38,7 @@ goToCat()
 const verifyLocal = async () => {
     const idNew = getLocalStorageId()
     if (idNew == "") {
-        window.location.assign("/pages/home/index.html")
+        window.location.assign("/index.html")
     }
     return await requestPost(idNew)
 }
